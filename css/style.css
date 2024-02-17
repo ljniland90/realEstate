@@ -69,7 +69,23 @@ h1,h2,h3{
 }
 
 .house-container{
-    background-color: #dedede;
-    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap:1rem;
 }
 
+.house-item{
+    background-color: #dedede;
+}
+
+.house-text{
+    padding: 1rem;
+}
+
+.price{
+    color: darkgreen;
+}
+
+.house-item ul{
+    list-style-type: none;
+}
