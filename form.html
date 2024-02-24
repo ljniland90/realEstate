@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .input-control{
+            display: block;
+            flex-direction: column;
+        }
+        div{
+            flex-direction: column;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <form>
+        <div>
+            <input type="text" id="txtName" placeholder="Add a product's name">
+        </div>
+            
+        <div>
+            <input type="text" placeholder="Add a description">
+        </div>
+        <div>
+            <input type="number" placeholder="Add the price">
+        </div>    
+            
+        <div>
+            <p>Select the color of your product:</p>
+            <!-- <input type="password"> -->
+            <input type="color">
+            <!-- <input type="date"> -->
+        </div>
+
+        <label>Select the payment method</label>
+        <select>
+            <option value="Cash">--- Option 1</option>
+            <option value="Credit">--- Option 2</option>
+            <option value="Debit">--- Option 3</option>
+        </select>
+
+        <button>Add</button>
+    </form>
+</body>
+</html>
