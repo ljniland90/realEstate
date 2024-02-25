@@ -1,7 +1,7 @@
-html{
-    /* 1rem = 10px 
-    font-size: 80%; */
-}
+/*
+Luke Niland
+FSDI Course 2 Assignment 1 
+ */
 
 *{
     padding: 0;
@@ -21,8 +21,6 @@ p{
     width: 99.5%;
     margin-left: auto;
     margin-right: auto;
-    align-content: center;
-    justify-content: center;
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -95,99 +93,25 @@ h6{
     padding: 3px;
 }
 
+.footerDiv{
+    height: 4vh;
+    background-color: rgb(255, 132, 0);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
 .footerLink{
     display: inline-block;
-    width: 70%;
-    margin-left: 15%;
+    margin-left: 45%;
     background-color: rgb(255, 132, 0);
     text-align: center;
     color: white;
     text-decoration: none;
     font-weight: 600;
-    padding: 10px;
-    margin-top: 3px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 2vh;
+    width: fit-content;
 }
-
-/* .header-text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.header-text-container p{
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.about-item{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.house-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap:1rem;
-}
-
-.house-item{
-    background-color: #dedede;
-}
-
-.house-text{
-    padding: 1rem;
-}
-
-.price{
-    color: darkgreen;
-}
-
-.house-item ul{
-    list-style-type: none;
-}
-
-/* Contact Page Styles*/
-
-/* .contact-header{
-    background-color: orangered;
-    margin-right: 20px;
-}
-
-.main-text{
-    font-weight: 900;
-}
-
-.secondary-text{
-    font-weight: 700;
-}
-
-.form-container{
-    background-color: lightskyblue;
-    padding: 2rem;
-    border-radius: 1rem;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-}
-
-fieldset{
-    border: 1px solid gray;
-    border-radius: 1rem;
-    padding: 1rem;
-}
-
-legend{
-    font-size: 1.6rem;
-}
-.form-control label{
-    font-size: 1.6rem;
-}
-
-.form-control input, .form-control textarea{
-    display: inline-block;
-    width: 60%;
-    padding: 3px;
-    font-size: 1.6rem;
-} */

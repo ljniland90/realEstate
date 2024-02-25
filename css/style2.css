@@ -1,0 +1,177 @@
+/*
+Luke Niland
+FSDI Course 2 Assignment 2
+ */
+
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 99.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 1;
+    font-size: 12px;
+    color: black;
+    margin-left: 5px;
+}
+
+.p2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.p3{
+    font-size: 10px;
+    font-weight: 600;
+    color: green;
+    padding: 5px;
+}
+
+.site-header{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.site-header a{
+    color: white;
+    text-decoration: none;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar a{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+h2,h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flexImg{
+    max-width: 100%;
+}
+
+.flexIcon{
+    max-width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.infoFlex{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border-color: darkgray;
+}
+
+.typeFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #dedede;
+    border-style: solid;
+    border-color: rgb(101, 99, 99);
+    padding-bottom: 5px;
+}
+
+.detailsFlex{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 5px;
+
+}
+
+.buttonFlex{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 132, 0);
+    width: 80%;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1{
+    display: inline-block;
+    width: fit-content;
+}
+
+.button1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footerIndex{
+    background-image: url(../img/encuentra.jpg); background-position: top 60% left 80%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.footerIndex p{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}

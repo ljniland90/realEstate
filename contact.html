@@ -4,14 +4,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style3.css">
         <title>Contact</title>
     </head>
 
     <body>
         
-        <header>
-
+        <header class="contact-header">
+            <div class="header-flex">
+                <h1 class="contact-h1">Real Estate</h1>
+                <div class="contact-nav">
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
         </header>
     
         <main>
@@ -20,27 +27,73 @@
                 <p class="secondary-text">Fill the next information</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, placeat perferendis! Labore natus consequatur ratione consequuntur recusandae sit nihil repellat dolore exercitationem. Nihil assumenda hic reprehenderit, cumque odio suscipit magni obcaecati corporis modi harum earum enim, soluta rem accusantium rerum.</p>
             </div>
+
             <form class="form-container">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <div class ="container">
+                    <div class="formFlex">
                         <label>Name:</label>
                         <input type="text" id="txtName">
                     </div>
-                    <div class ="container">
+                    <div class="formFlex">
                         <label>Email:</label>
                         <input type="email" id="txtEmail">
                     </div>
-                    <div class ="container">
+                    <div class="formFlex">
                         <label>Phone Number:</label>
                         <input type="tel" id="txtPhone">
                     </div>
-                    <div class ="container">
+                    <div class="formFlex">
                         <label>Message:</label>
-                        <textarea></textarea>
+                        <input type="text">
                     </div>
                 </fieldset>
             </form>
+
+            <form class="form-container">
+                <fieldset>
+                    <legend>Product Information</legend>
+                    <div class="fieldFlex">
+                        <label>Type: </label>
+                        <select>
+                            <option value="Cash">Luxury House on the Lake</option>
+                            <option value="Credit">Luxury House</option>
+                            <option value="Debit">House with a Pool</option>
+                        </select>
+                    </div>
+                    <div class="fieldFlex">
+                        <label>Number: </label>
+                        <input type="number">
+                    </div>
+                </fieldset>
+            </form>
+
+            <form class="form-container">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="formFlex">
+                        <div>
+                            <label>Email: </label>
+                            <input type="radio">
+                        </div>
+                        <div>
+                            <label>Phone</label>
+                            <input type="radio">
+                        </div>
+                    </div>
+                    <div class="formFlex">
+                        <div>
+                            <label>Date: </label>
+                            <input type="date">
+                        </div>
+                        <div>
+                            <label>Hour: </label>
+                            <input type="time">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
         </main>
         
         <footer>
